@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('../font/PumpkinCheesecake.otf');
+}
+
+body {
+    background-color: rgba(32, 33, 36, 1);
+    overflow-x: hidden;
+    font-family: 'myFont';
+}
+
+.flex-container {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.item-container {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#title {
+    color: white;
+    padding-top: 5vw;
+    padding-bottom: 40px;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li {
+    padding-bottom: 20px;
+}
